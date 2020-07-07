@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIExample", "DIExample\DIExample.csproj", "{56509B47-85FB-49EF-A531-A00D51CAB187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIExample.Tests", "DIExample.Tests\DIExample.Tests.csproj", "{2291D8EA-BC8E-4857-94DD-151DE8DB62D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56509B47-85FB-49EF-A531-A00D51CAB187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56509B47-85FB-49EF-A531-A00D51CAB187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56509B47-85FB-49EF-A531-A00D51CAB187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56509B47-85FB-49EF-A531-A00D51CAB187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2291D8EA-BC8E-4857-94DD-151DE8DB62D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2291D8EA-BC8E-4857-94DD-151DE8DB62D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2291D8EA-BC8E-4857-94DD-151DE8DB62D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2291D8EA-BC8E-4857-94DD-151DE8DB62D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD1C77D1-609D-49FC-B4DF-365983A4DEF5}
+	EndGlobalSection
+EndGlobal
