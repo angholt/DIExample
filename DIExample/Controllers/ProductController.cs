@@ -2,23 +2,27 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DIExample.Repositories;
+using DIExample.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace DIExample.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly IProductRepository _productRepository;
+        private readonly IProductService _productService;
+        private readonly ILogger<ProductController> _logger;
 
-        public ProductController(IProductRepository productRepository)
+        public ProductController(ILogger<ProductController> logger, IProductService productService)
         {
-            _productRepository = productRepository;
+            _logger = logger;
+            _productService = productService;
         }
 
         public IActionResult Index()
         {
-            var products = _productRepository.GetProducts();
+            _logger.LogInformation("Hello from ProductController");
+            var products = _productService.GetAllProducts();
             return View(products);
         }
     }
